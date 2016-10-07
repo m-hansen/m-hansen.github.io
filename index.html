@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Matthew Hansen - Game Programmer</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-social.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <!-- NAVBAR -->
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Matthew Hansen</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- END NAVBAR -->
+    <!-- CONTENT CONTAINER -->
+    <div class="container marketing">
+      <!-- ABOUT -->
+      <div class="row featurette about">
+        <div class="col-md-5">
+          <h2 id="name">Matthew Hansen</h2>
+          <h2>Game Programmer</h2>
+          <div class="social-buttons">
+            <a class="btn btn-social-icon btn-github" href="https://github.com/m-hansen" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+            <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/matthewhansendev" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a class="btn btn-social-icon btn-email" href="mailto:mhansen@cfl.rr.com?Subject=Portfolio" target="_top">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <p class="lead">Thanks for taking a look at my portfolio! I'm currently finishing up my M.S. in Interactive Entertainment in the programming track at the Florida Interactive Entertainment Academy. I received my B.S. in Computer Science at the University of Central Florida. While I do consider myself a generalist, I enjoy working on engines, AI, and gameplay programming and am actively seeking full-time employment.</p>
+        </div>
+      </div>
+      <!-- END ABOUT -->
+      <!-- PROJECTS -->
+      
+  <div class="row">
+		<div id="brainmaxx-card" class="cover-card col-sm-4" role="button" data-toggle="modal" data-target="#brainmaxxModal" />
+    </div>
+		<div id="channeler-card" class="cover-card col-sm-8" role="button" data-toggle="modal" data-target="#channelerModal" />
+		</div>
+		<div id="v6-card" class="cover-card col-sm-5" role="button" data-toggle="modal" data-target="#engineModal" />
+		</div>
+		<div id="breakout-card" class="cover-card col-sm-3" role="button" data-toggle="modal" data-target="#breakoutModal" />
+		</div>
+		<div id="nyah-card" class="cover-card col-sm-4" role="button" data-toggle="modal" data-target="#nyahModal" />
+		</div>
+  </div>
+
+<!-- Modal -->
+<div id="channelerModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title featurette-heading">The Channeler</h2>
+      </div>
+      <div class="modal-body">
+        <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/channeler/shell_game.png"/>
+          <div class="project-tags">
+            <div class="tag">Unreal Engine</div>
+            <div class="tag">C++</div>
+            <div class="tag">Blueprint</div>
+            <div class="tag">Tobii EyeX</div>
+            <div class="tag">Artificial Intelligence</div>
+            <div class="tag">Gameplay / Prototyping</div>
+            <div class="tag">Analytics</div>
+            <div class="tag">Build Pipeline</div>
+            <div class="tag">Installation</div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <p class="lead">The Channeler is a PC game that utilizes the Tobii EyeX eye-tracking hardware. We are experimenting with this new technology in games and striving to create a unique and immersive experience. As a part of a team of 12 people, I have worked on AI components for NPC companions and enemies, assisted in engine and tool creation, build automation and installation, general gameplay, prototyping, and analytics. We are in the process of getting published on the <a href="http://www.tobii.com/xperience/apps/" target="_blank">Tobii Apps</a> store. We'll keep you posted!</p>
+            <a class="btn btn-lg btn-primary" href="https://youtu.be/PBcgZWg9RlA" target="_blank" role="button">Trailer</a>
+            <a class="btn btn-lg btn-primary" href="https://thechanneler.wordpress.com/" target="_blank" role="button">Channeler Blog</a>
+          </p>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="brainmaxxModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title featurette-heading">Brain Maxx</h2>
+      </div>
+      <div class="modal-body">
+        <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/brain_maxx/brain_maxx_gameplay.png"/>
+            <div class="tag">C#</div>
+            <div class="tag">Unity</div>
+            <div class="tag">Muse</div>
+            <div class="tag">EEGer</div>
+            <div class="tag">Gameplay</div>
+            <div class="tag">Audio</div>
+            <div class="tag">Experimental</div>
+        </div>
+        <div class="col-md-7">
+          <p class="lead">Brain Maxx is a game that relies on gathering neurofeedback data in real-time in the form of EEG waves and encourages the player to enter a focused state. The player is initially represented as a small object traveling down a cylindrical space. By monitoring spontaneous electrical activity while engaged in the game, we "reward" the player when they remain in their focused state by accumulating additional objects that form into a ship. If the player gets either too relaxed or too energized, they will fall out of this reward state. If a player is unable to quickly re-enter a focused state the ship will begin to disintegrate and audio will fade. We hope to gain a better understanding of how games can impact a user's level of focus in real-time and see if repetitive exposure can assist in consciously managing it.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="http://brainmaxx.weebly.com/" target="_blank" role="button">Brain Maxx Blog</a>
+          </p>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="engineModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title featurette-heading">Data-Driven Game Engine</h2>
+      </div>
+      <div class="modal-body">
+        <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/v6/v6_gameplay_card.png">
+          <div class="tag">C++</div>
+          <div class="tag">Data Structures</div>
+          <div class="tag">RTTI</div>
+          <div class="tag">Data Driven System</div>
+          <div class="tag">Chain of Responsibility</div>
+          <div class="tag">XML Parsing</div>
+          <div class="tag">Factory Pattern</div>
+        </div>
+        <div class="col-md-7">
+          <p class="lead">As part of my graduate coursework at FIEA, I have been writing a custom game engine from scratch in C++. This includes re-creating fundamental data structures such as a singly-linked list, vector, stack, and hashmap. In addition to compile-time containers, I have been working on creating a script-like system to construct custom data types during run-time. The components that make up this system are datums (to store either individual data or arrays of homogeneous data with Run-Time Type Information support), a scope (which is just as it sounds, it associates other datums and scopes with a name, then encases it), and finally attributed (that links a script-like language to native C++ code). An event-driven XML parsing system is used to assist in the creation of this custom data system at run-time.</p>
+          <a class="btn btn-lg btn-primary" href="https://github.com/m-hansen/Data-Driven-Game-Engine" target="_blank" role="button">View on GitHub</a>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="breakoutModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title featurette-heading">68k Breakout</h2>
+      </div>
+      <div class="modal-body">
+        <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/breakout/breakout_gameplay.png"/>
+          <div class="tag">Assembly</div>
+          <div class="tag">Motorola 68000</div>
+          <div class="tag">Low-level Optimization</div>
+          <div class="tag">Fixed Point</div>
+        </div>
+        <div class="col-md-7">
+          <p class="lead">This version of Breakout was written in Motorola 68000 (32-bit assembly). One of the largest challenges involved optimizing the application to run through a simulator in a Windows environment. Rendering in particular was too slow to be able to redraw bitmaps on the screen even when swapping buffers in a double buffered system. In order to work around this limitation, an invalid rectangle was calculated each frame an entity moved. This allowed the renderer to only re-draw areas of the screen where another sprite was overlapping another sprite or background image on the previous frame. Other challenges included using fixed point notation since the hardware did not support floating point operations, creating a 7-segment LED for the life counter to avoid unnecessarily loading additional sprites and fonts, and maintaining the user input buffer in the cache to ensure the game was responsive to the player’s input.</p>
+          <a class="btn btn-lg btn-primary" href="https://github.com/m-hansen/Breakout-Motorola-68000" target="_blank" role="button">View on GitHub</a>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="nyahModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title featurette-heading">Nyah</h2>
+      </div>
+      <div class="modal-body">
+        <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/nyah/nyah_gameplay.png" "Generic placeholder image" />
+          <div class="tag">C/C++</div>
+          <div class="tag">Cross Platform</div>
+          <div class="tag">PC</div>
+          <div class="tag">Xbox</div>
+          <div class="tag">OpenGL</div>
+          <div class="tag">DirectX</div>
+        </div>
+        <div class="col-md-7">
+          <p class="lead">A PC game developed by a team of two. Originally written in C++ and OpenGL, it was later ported to the original Xbox. Some of the more notable technical challenges included converting from OpenGL to DirectX, handling new input devices, and managing requirements for audio and graphic assets across platforms.</p>
+          <a class="btn btn-lg btn-primary" href="https://github.com/m-hansen/NYAH" target="_blank" role="button">View on GitHub</a>
+          <a class="btn btn-lg btn-primary" href="https://www.youtube.com/watch?v=P3iKqXWcIwg" target="_blank" role="button">Video</a>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- END PROJECTS -->
+      <!-- FOOTER -->
+      <footer>
+        <!--<p class="pull-right"><a href="#">Back to top</a></p>-->
+        <p>&copy; 2016 Matthew Hansen</p>
+      </footer>
+      <!-- END FOOTER -->
+    </div>
+    <!-- END CONTENT CONTAINER -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="js/docs.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="js/ie10-viewport-bug-workaround.js"></script> -->
+    
+    <!--<script>
+     Google Analytics
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-59797616-1', 'auto');
+      ga('send', 'pageview');
+    </script> -->
+  </body>
+</html>

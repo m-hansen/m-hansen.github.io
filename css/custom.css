@@ -1,0 +1,127 @@
+a.btn-social-icon {
+  padding: 5px;
+  margin: 0px 0px 0px 3px;
+}
+
+div.tag {
+  text-align: center;
+  font-weight: bold;
+  margin: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 25px;
+  width: 170px;
+  height: 23px;
+}
+
+div.about {
+  padding-top: 100px;
+}
+
+h2#name {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.navbar-nav {
+  float: right;
+  margin: 0;
+}
+
+.navbar-inverse>li>a:hover {
+  float: left;
+  background-color: #f00;
+  border-color: #080808;
+}
+
+.btn-email {
+  color: #000;
+  background-color: #ffd;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-email:hover,
+.btn-email:focus,
+.btn-email:active {
+  color: #000;
+  background-color: #ffffc8;
+  border-color: rgba(0,0,0,0.2);
+}
+
+.cover-card {
+	border: 2px solid white;
+	background: silver;
+	padding: 0px;
+	margin: 0px;
+	height:200px;
+}
+
+.cover-card > p {
+	text-align: center;
+	background-color: rgba(6,6,6,0.0);
+	color: rgba(6,6,6,0.0);
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.cover-card:hover > p {
+	background-color: rgba(6,6,6,0.3);
+	color: white;
+	text-shadow: 3px 3px 10px #000;
+}
+
+#channeler-card {
+	background: url(../img/channeler/shell_game.png) no-repeat center top;
+	background-size:cover;
+}
+
+#channeler-card:hover {
+	background: url(../img/channeler/channeler_logo_card.png) no-repeat center top;
+	background-size:cover;
+}
+
+#brainmaxx-card {
+	background: url(../img/brain_maxx/brain_maxx_gameplay.png) no-repeat center top;
+	background-size:cover;
+}
+
+#brainmaxx-card:hover {
+	background: url(../img/brain_maxx/brain_maxx_logo.png) no-repeat center top;
+	background-size:cover;
+}
+
+#v6-card {
+	background: url(../img/v6/v6_gameplay_card.png) no-repeat center top;
+	background-size:cover;
+}
+
+#v6-card:hover {
+	background: url(../img/v6/v6_logo_card.png) no-repeat center top;
+	background-size:cover;
+}
+
+#breakout-card {
+	background: url(../img/breakout/breakout_gameplay.png) no-repeat center top;
+	background-size:cover;
+}
+
+#breakout-card:hover {
+	background: url(../img/breakout/breakout_logo_card.png) no-repeat center top;
+	background-size:cover;
+}
+
+#nyah-card {
+	background: url(../img/nyah/nyah_gameplay.png) no-repeat center top;
+	background-size:cover;
+}
+
+#nyah-card:hover {
+	background: url(../img/nyah/nyah_logo_card.png) no-repeat center top;
+	background-size:cover;
+}
+
+#preloader {background: url('../img/channeler/channeler_logo_card.png'), url('../img/brain_maxx/brain_maxx_logo.png'), url('../img/v6/v6_logo_card.png'), url('../img/breakout/breakout_logo_card.png'), url('../img/nyah/nyah_logo_card.png');}
