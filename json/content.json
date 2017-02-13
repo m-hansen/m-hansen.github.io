@@ -1,0 +1,40 @@
+{
+	"personal": {
+		"ids":["name","profession","bio"],
+		"name":"Matthew Hansen",
+		"profession":"Game Programmer",
+		"bio":"Thanks for taking the time to look at my portfolio! I've obtained a B.S. in Computer Science at the University of Central Florida and my M.S. in Interactive Entertainment from the Florida Interactive Entertainment Academy at UCF. I've worked on games and interactive experiences for simulation, training, education, and entertainment. I consider myself a generalist developer that is comfortable working at both the gameplay and systems level."
+	},
+	"projects": [
+		{
+			"ids":["t_chan","d_chan","tag_chan"],
+			"title":"The Channeler",
+			"description":"The Channeler is a PC game that utilizes the Tobii EyeX eye-tracking hardware. We are experimenting with this new technology in games and striving to create a unique and immersive experience. As a part of a team of 12 people, I have worked on AI components for NPC companions and enemies, assisted in engine and tool creation, build automation and installation, general gameplay, prototyping, and analytics. We are in the process of getting published on the Tobii Apps store. We'll keep you posted!",
+			"tags":["Unreal Engine 4","C++","Blueprint","Tobii EyeX","Artificial Intelligence","Gameplay / Prototyping","Analytics","Build Pipeline","Installation"]
+		},
+		{
+			"ids":["t_brain","d_brain","tag_brain"],
+			"title":"Brain Maxx",
+			"description":"Brain Maxx is a game that relies on gathering neurofeedback data in real-time in the form of EEG waves and encourages the player to enter a focused state. The player is initially represented as a small object traveling down a cylindrical space. By monitoring spontaneous electrical activity while engaged in the game, we reward the player when they remain in their focused state by accumulating additional objects that form into a ship. If the player gets either too relaxed or too energized, they will fall out of this reward state. If a player is unable to quickly re-enter a focused state the ship will begin to disintegrate and audio will fade. We hope to gain a better understanding of how games can impact a user's level of focus in real-time and see if repetitive exposure can assist in consciously managing it.",
+			"tags":["C#","Unity","Muse","EEGer","Gameplay","Audio","Experimental"]
+		},
+		{
+			"ids":["t_engine","d_engine","tag_engine"],
+			"title":"Data-Driven Game Engine",
+			"description":"As part of my graduate coursework at FIEA, I have been writing a custom game engine from scratch in C++. This includes re-creating fundamental data structures such as a singly-linked list, vector, stack, and hashmap. In addition to compile-time containers, I have been working on creating a script-like system to construct custom data types during run-time. The components that make up this system are datums (to store either individual data or arrays of homogeneous data with Run-Time Type Information support), a scope (which is just as it sounds, it associates other datums and scopes with a name, then encases it), and finally attributed (that links a script-like language to native C++ code). An event-driven XML parsing system is used to assist in the creation of this custom data system at run-time.",
+			"tags":["C++","Data Structures","RTTI","Data Driven System","Chain of Responsibility","XML Parsing","Factory Pattern"]
+		},
+		{
+			"ids":["t_breakout","d_breakout","tag_breakout"],
+			"title":"Motorola 68k Breakout",
+			"description":"This version of Breakout was written in Motorola 68000 (32-bit assembly). One of the largest challenges involved optimizing the application to run through a simulator in a Windows environment. Rendering in particular was too slow to be able to redraw bitmaps on the screen even when swapping buffers in a double buffered system. In order to work around this limitation, an invalid rectangle was calculated each frame an entity moved. This allowed the renderer to only re-draw areas of the screen where another sprite was overlapping another sprite or background image on the previous frame. Other challenges included using fixed point notation since the hardware did not support floating point operations, creating a 7-segment LED for the life counter to avoid unnecessarily loading additional sprites and fonts, and maintaining the user input buffer in the cache to ensure the game was responsive to the player’s input.",
+			"tags":["Assembly","Motorola 68000","Low-level Optimization","Fixed Point"]
+		},
+		{
+			"ids":["t_nyah","d_nyah","tag_nyah"],
+			"title":"Nyah",
+			"description":"A PC game developed by a team of two. Originally written in C++ and OpenGL, it was later ported to the original Xbox. Some of the more notable technical challenges included converting from OpenGL to DirectX, handling new input devices, and managing requirements for audio and graphic assets across platforms.",
+			"tags":["C/C++","Cross Platform","PC","Xbox","OpenGL","DirectX"]
+		}
+	]
+}
