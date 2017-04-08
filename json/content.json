@@ -9,7 +9,7 @@
 		{
 			"ids":["t_chan","d_chan","tag_chan"],
 			"title":"The Channeler",
-			"description":"The Channeler is a PC game that utilizes the Tobii EyeX eye-tracking hardware. We are experimenting with this new technology in games and striving to create a unique and immersive experience. As a part of a team of 12 people, I have worked on AI components for NPC companions and enemies, assisted in engine and tool creation, build automation and installation, general gameplay, prototyping, and analytics. We are in the process of getting published on the Tobii Apps store. We'll keep you posted!",
+			"description":"The Channeler is a PC game that utilizes the Tobii EyeX eye-tracking hardware. We are experimenting with this new technology in games and striving to create a unique and immersive experience. As a part of a team of 12 people, I have worked on AI components for NPC companions and enemies, assisted in engine and tool creation, build automation and installation, general gameplay, prototyping, and analytics.",
 			"tags":["Unreal Engine 4","C++","Blueprint","Tobii EyeX","Artificial Intelligence","Gameplay / Prototyping","Analytics","Build Pipeline","Installation"]
 		},
 		{
