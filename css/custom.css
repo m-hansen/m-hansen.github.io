@@ -74,13 +74,23 @@ h2#name {
 	text-shadow: 3px 3px 10px #000;
 }
 
+#archer-card {
+	background: url(../img/archer/archer_pi_archer.png) no-repeat center top;
+	background-size:cover;
+}
+
+#archer-card:hover {
+	background: url(../img/archer/archer_pi_title.webp) no-repeat center top;
+	background-size:cover;
+}
+
 #channeler-card {
 	background: url(../img/channeler/shell_game.png) no-repeat center top;
 	background-size:cover;
 }
 
 #channeler-card:hover {
-	background: url(../img/channeler/channeler_logo_card.png) no-repeat center top;
+	background: url(../img/channeler/channeler_landing.png) no-repeat center top;
 	background-size:cover;
 }
 
@@ -90,7 +100,7 @@ h2#name {
 }
 
 #brainmaxx-card:hover {
-	background: url(../img/brain_maxx/brain_maxx_logo.png) no-repeat center top;
+	background: url(../img/brain_maxx/brain_maxx_logo_2_dark.png) no-repeat center top;
 	background-size:cover;
 }
 
@@ -120,7 +130,7 @@ h2#name {
 }
 
 #nyah-card:hover {
-	background: url(../img/nyah/nyah_logo_card.png) no-repeat center top;
+	background: url(../img/nyah/nyah_logo_card2.png) no-repeat center top;
 	background-size:cover;
 }
 
