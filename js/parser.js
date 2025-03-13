@@ -15,7 +15,7 @@ function readFile(file)
 			document.getElementById(obj.personal.ids[1]).innerHTML=obj.personal["profession"];
 			document.getElementById(obj.personal.ids[2]).innerHTML=obj.personal["bio"]
 			
-			// Project section
+			// Project modals
 			Object.entries(obj.projects).forEach(
 				([index, project]) => {
 					document.getElementById(project.ids[0]).innerHTML=project["title"];

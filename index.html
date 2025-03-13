@@ -15,6 +15,7 @@
   </head>
   <body>
     <div id="preloader"></div>
+    
     <!-- NAVBAR -->
     <div class="navbar-wrapper">
       <div class="container">
@@ -34,15 +35,19 @@
       </div>
     </div>
     <!-- END NAVBAR -->
+    
     <!-- CONTENT CONTAINER -->
     <div class="container marketing">
+    
       <!-- ABOUT -->
       <div class="row featurette about">
         <div class="col-md-5">
           <div>
             <img src="img/channeler-icon.png" alt="logo" style="position:absolute;top:15%;width:80px;height:80px;"/>
-            <span style="margin-left:95px;display:block;"><h2 id="name"></h2>
-            <h2 id="profession"></h2></span>
+            <span style="margin-left:95px;display:block;">
+			  <h2 id="name"/>
+              <h2 id="profession"/>
+			</span>
           </div>
           <div class="social-buttons">
             <a class="btn btn-social-icon btn-github" href="https://github.com/m-hansen" target="_blank">
@@ -51,9 +56,6 @@
             <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/matthewhansendev" target="_blank">
               <i class="fa fa-linkedin"></i>
             </a>
-            <!--<a class="btn btn-social-icon btn-email" href="mailto:?Subject=Portfolio" target="_top">
-              <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            </a>-->
           </div>
         </div>
         <div class="col-md-7">
@@ -61,198 +63,195 @@
         </div>
       </div>
       <!-- END ABOUT -->
-      <!-- PROJECTS -->
+     
+      <!-- Tile layout -->
+      <div class="row">
+        <!-- Reminder: div is not a self-closing tag -->
+        <div id="archer-card"     class="cover-card col-sm-4" role="button" data-toggle="modal" data-target="#archerModal"></div>
+        <div id="channeler-card"  class="cover-card col-sm-5" role="button" data-toggle="modal" data-target="#channelerModal"></div>
+        <div id="nyah-card"       class="cover-card col-sm-3" role="button" data-toggle="modal" data-target="#nyahModal"></div>
+        <div id="brainmaxx-card"  class="cover-card col-sm-5" role="button" data-toggle="modal" data-target="#brainmaxxModal"></div>
+        <div id="v6-card"         class="cover-card col-sm-3" role="button" data-toggle="modal" data-target="#engineModal"></div>
+        <div id="breakout-card"   class="cover-card col-sm-4" role="button" data-toggle="modal" data-target="#breakoutModal"></div>
+      </div>
       
-  <div class="row">
-		<div id="archer-card" class="cover-card col-sm-4" role="button" data-toggle="modal" data-target="#archerModal" />
-		</div>
-		<div id="channeler-card" class="cover-card col-sm-5" role="button" data-toggle="modal" data-target="#channelerModal" />
-		</div>
-		<div id="nyah-card" class="cover-card col-sm-3" role="button" data-toggle="modal" data-target="#nyahModal" />
-		</div>
-		<div id="brainmaxx-card" class="cover-card col-sm-5" role="button" data-toggle="modal" data-target="#brainmaxxModal" />
-		</div>
-		<div id="v6-card" class="cover-card col-sm-3" role="button" data-toggle="modal" data-target="#engineModal" />
-		</div>
-		<div id="breakout-card" class="cover-card col-sm-4" role="button" data-toggle="modal" data-target="#breakoutModal" />
-		</div>
-  </div>
+      <!-- BEGIN PROJECTS -->
+      <!-- Modal -->
+      <div id="archerModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 id="t_archer" class="modal-title featurette-heading"></h2>
+            </div>
+            <div class="modal-body">
+              <div class="row featurette">
+              <div class="col-md-5">
+                <img class="featurette-image img-responsive" src="img/archer/archer_pi_dog.webp"/>
+                <div id="tag_archer" class="project-tags"></div>
+              </div>
+              <div class="col-md-7">
+                <p id="d_archer" class="lead"></p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="https://www.youtube.com/watch?v=Bpf4G_nJoHU" target="_blank" role="button">Archer, P.I. Trailer</a>
+                </p>
+              </div>
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<!-- Modal -->
-<div id="archerModal" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h2 id="t_archer" class="modal-title featurette-heading"></h2>
-      </div>
-      <div class="modal-body">
-        <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/archer/archer_pi_dog.webp"/>
-          <div id="tag_archer" class="project-tags"></div>
+      <!-- Modal -->
+      <div id="channelerModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 id="t_chan" class="modal-title featurette-heading"></h2>
+            </div>
+            <div class="modal-body">
+              <div class="row featurette">
+              <div class="col-md-5">
+                <img class="featurette-image img-responsive" src="img/channeler/shell_game.png"/>
+                <div id="tag_chan" class="project-tags"></div>
+              </div>
+              <div class="col-md-7">
+                <p id="d_chan" class="lead"></p>
+                  <a class="btn btn-lg btn-primary" href="https://tobiigaming.com/games/the-channeler/" target="_blank" role="button">Download</a>
+                  <a class="btn btn-lg btn-primary" href="https://vimeo.com/176521376" target="_blank" role="button">Trailer</a>
+                </p>
+              </div>
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
-        <div class="col-md-7">
-          <p id="d_archer" class="lead"></p>
-          <p>
-            <a class="btn btn-lg btn-primary" href="https://www.youtube.com/watch?v=Bpf4G_nJoHU" target="_blank" role="button">Archer, P.I. Trailer</a>
-          </p>
-        </div>
       </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Modal -->
-<div id="channelerModal" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h2 id="t_chan" class="modal-title featurette-heading"></h2>
-      </div>
-      <div class="modal-body">
-        <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/channeler/shell_game.png"/>
-          <div id="tag_chan" class="project-tags"></div>
+      <!-- Modal -->
+      <div id="brainmaxxModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 id="t_brain" class="modal-title featurette-heading"></h2>
+            </div>
+            <div class="modal-body">
+              <div class="row featurette">
+              <div class="col-md-5">
+                <img class="featurette-image img-responsive" src="img/brain_maxx/brain_maxx_gameplay.png"/>
+                <div id="tag_brain" class="project-tags"></div>
+              </div>
+              <div class="col-md-7">
+                <p id="d_brain" class="lead"></p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="http://brainmaxx.weebly.com/" target="_blank" role="button">Brain Maxx Blog</a>
+                </p>
+              </div>
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
-        <div class="col-md-7">
-          <p id="d_chan" class="lead"></p>
-            <a class="btn btn-lg btn-primary" href="https://tobiigaming.com/games/the-channeler/" target="_blank" role="button">Download</a>
-            <a class="btn btn-lg btn-primary" href="https://vimeo.com/176521376" target="_blank" role="button">Trailer</a>
-          </p>
-        </div>
       </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Modal -->
-<div id="brainmaxxModal" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h2 id="t_brain" class="modal-title featurette-heading"></h2>
-      </div>
-      <div class="modal-body">
-        <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/brain_maxx/brain_maxx_gameplay.png"/>
-          <div id="tag_brain" class="project-tags"></div>
+      <!-- Modal -->
+      <div id="engineModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 id="t_engine" class="modal-title featurette-heading"></h2>
+            </div>
+            <div class="modal-body">
+              <div class="row featurette">
+              <div class="col-md-5">
+                <img class="featurette-image img-responsive" src="img/v6/v6_gameplay_card.png">
+                <div id="tag_engine" class="project-tags"></div>
+              </div>
+              <div class="col-md-7">
+                <p id="d_engine" class="lead"></p>
+                <a class="btn btn-lg btn-primary" href="https://github.com/m-hansen/Data-Driven-Game-Engine" target="_blank" role="button">View on GitHub</a>
+              </div>
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
-        <div class="col-md-7">
-          <p id="d_brain" class="lead"></p>
-          <p>
-            <a class="btn btn-lg btn-primary" href="http://brainmaxx.weebly.com/" target="_blank" role="button">Brain Maxx Blog</a>
-          </p>
-        </div>
       </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Modal -->
-<div id="engineModal" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h2 id="t_engine" class="modal-title featurette-heading"></h2>
-      </div>
-      <div class="modal-body">
-        <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/v6/v6_gameplay_card.png">
-          <div id="tag_engine" class="project-tags"></div>
+      <!-- Modal -->
+      <div id="breakoutModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 id="t_breakout" class="modal-title featurette-heading"></h2>
+            </div>
+            <div class="modal-body">
+              <div class="row featurette">
+              <div class="col-md-5">
+                <img class="featurette-image img-responsive" src="img/breakout/breakout_gameplay.png"/>
+                <div id="tag_breakout" class="project-tags"></div>
+              </div>
+              <div class="col-md-7">
+                <p id="d_breakout" class="lead"></p>
+                <a class="btn btn-lg btn-primary" href="https://github.com/m-hansen/Breakout-Motorola-68000" target="_blank" role="button">View on GitHub</a>
+              </div>
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
-        <div class="col-md-7">
-          <p id="d_engine" class="lead"></p>
-          <a class="btn btn-lg btn-primary" href="https://github.com/m-hansen/Data-Driven-Game-Engine" target="_blank" role="button">View on GitHub</a>
-        </div>
       </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Modal -->
-<div id="breakoutModal" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h2 id="t_breakout" class="modal-title featurette-heading"></h2>
-      </div>
-      <div class="modal-body">
-        <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/breakout/breakout_gameplay.png"/>
-          <div id="tag_breakout" class="project-tags"></div>
-        </div>
-        <div class="col-md-7">
-          <p id="d_breakout" class="lead"></p>
-          <a class="btn btn-lg btn-primary" href="https://github.com/m-hansen/Breakout-Motorola-68000" target="_blank" role="button">View on GitHub</a>
-        </div>
-      </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal -->
-<div id="nyahModal" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h2 id="t_nyah" class="modal-title featurette-heading"></h2>
-      </div>
-      <div class="modal-body">
-        <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/nyah/nyah_gameplay.png" "Generic placeholder image" />
-          <div id="tag_nyah" class="project-tags"></div>
-        </div>
-        <div class="col-md-7">
-          <p id="d_nyah" class="lead"></p>
-          <a class="btn btn-lg btn-primary" href="https://github.com/m-hansen/NYAH" target="_blank" role="button">View on GitHub</a>
-          <a class="btn btn-lg btn-primary" href="https://www.youtube.com/watch?v=P3iKqXWcIwg" target="_blank" role="button">Video</a>
+      <!-- Modal -->
+      <div id="nyahModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 id="t_nyah" class="modal-title featurette-heading"></h2>
+            </div>
+            <div class="modal-body">
+              <div class="row featurette">
+              <div class="col-md-5">
+                <img class="featurette-image img-responsive" src="img/nyah/nyah_gameplay.png" "Generic placeholder image" />
+                <div id="tag_nyah" class="project-tags"></div>
+              </div>
+              <div class="col-md-7">
+                <p id="d_nyah" class="lead"></p>
+                <a class="btn btn-lg btn-primary" href="https://github.com/m-hansen/NYAH" target="_blank" role="button">View on GitHub</a>
+                <a class="btn btn-lg btn-primary" href="https://www.youtube.com/watch?v=P3iKqXWcIwg" target="_blank" role="button">Video</a>
+              </div>
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
       </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
       <!-- END PROJECTS -->
+      
       <!-- FOOTER -->
       <footer>
         <!--<p class="pull-right"><a href="#">Back to top</a></p>-->
