@@ -3,7 +3,7 @@
 		"ids": [ "name", "profession", "bio" ],
 		"name": "Matthew Hansen",
 		"profession": "Game Programmer",
-		"bio": "Thanks for taking the time to look at my portfolio! I am a professional software engineer with 10+ years of experience architecting high-performance software systems. The majority of my experience is in three areas: the video game industry on 2D and 3D games, DOD contracting on real-time vehicle simulations and maintenance programs, and working with personal clients on emerging technologies including eye-tracking, haptic feedback hardware, and AR/VR applications. My diverse experience has made me an expert at efficiently learning a wide variety of platforms and libraries with a keen eye for thoroughly examining specialized topics."
+		"bio": "<p>Thanks for taking the time to look at my portfolio! I am a professional <b>software engineer</b> with <b>10+</b> years of experience architecting high-performance software systems. The majority of my experience is in three areas: the video game industry on <b>2D</b> and <b>3D games</b>, DOD contracting on <b>real-time vehicle simulations</b> and maintenance programs, and working with personal clients on <b>emerging technologies</b> including eye-tracking, haptic feedback hardware, and AR/VR applications. My diverse experience has made me an expert at efficiently learning a <b>wide variety of platforms</b> and libraries with a keen eye for thoroughly examining specialized topics.</p>"
 	},
 	"projects": [
 		{
